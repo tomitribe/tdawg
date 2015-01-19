@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openejb-jar>
+  <pojo-deployment class-name="com.wm.foo.TdawgApplication">
+    <properties>
+      cxf.jaxrs.skip-provider-scanning = true
+      cxf.jaxrs.providers = johnzon
+    </properties>
+  </pojo-deployment>
+</openejb-jar>
